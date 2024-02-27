@@ -92,9 +92,9 @@ float4 _ThirdTex_ST;
     col = lerp(col, secondary_color, blend_color.g);
     col = lerp(col, third_color, blend_color.b);
     
-    float sin_value = sin(_Time.y);
-    sin_value = saturate(sin_value);
-    col = lerp(_Color1, _Color2, sin_value);
+    //float sin_value = sin(_Time.y);
+    //sin_value = saturate(sin_value);
+    //col = lerp(_Color1, _Color2, sin_value);
 
     
                 return col;
